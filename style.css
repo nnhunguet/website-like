@@ -128,3 +128,13 @@ body {
     border-radius: 5px;
     font-weight: 800;
 }
+
+.menu-title:hover {
+    color: chartreuse;
+}
+
+.account-drop {
+    position: absolute;
+    right: 40px;
+    opacity: 0;
+}
