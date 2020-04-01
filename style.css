@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1320px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.site-welcome {
+    flex-grow: 1;
+}
+.header-divider {
+    display: block;
+    border-top: 1px solid;
+    height: 0;
+}
+
+.header-left {
+}
+
+.header-center {
+    flex-grow: 1;
+    margin-left: 60px;
+}
+
+.header-center ul {
+    list-style: none;
+}
+.menu {
+    margin: 0;
+    padding-top: 8px;
+}
+.header-center ul li{
+    margin: 0 16px;
+    font-size: 120%;
+}
+
+.header-center ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header-right {
+    padding-top: 8px;
+    width: 200px;
+    font-size: 160%;
+}
+
+.header-right .header-group-action div {
+    margin-left: 20px;
+}
+
+.header-right .header-group-action div a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.header-right .header-group-action div a .count {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ef3636;
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    left: 20px;
+    margin-left: 2px;
+}
+
+.background {
+    width: 100%;
+    height: 700px;
+    background-image: url(./image/background.jpg); 
+}
+
+.contain {
+    display: flex;
+    position: relative;
+}
+.contain .water-hoa-qua {
+    position: absolute;
+    right: 30px;
+    margin-top: 40px;
+}
+
+.contain .good-morning {
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
+}
+
+.contain .good-morning .text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contain .box-text .text {
+    position: absolute;
+    left: 340px;
+    top: 560px;
+    padding: 20px 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+}
