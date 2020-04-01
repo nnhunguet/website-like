@@ -1,0 +1,12 @@
+.banner {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.banner-1 {
+    margin-left: 20px;
+}
+
+.banner-2 {
+    margin-left: 10px;
+}
