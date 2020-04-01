@@ -48,6 +48,22 @@
 .img-1 {
     background-image: url('./image/product/1.png');
 }
+
+.img-2 {
+    background-image: url('./image/product/2.png');
+}
+
+.img-3 {
+    background-image: url('./image/product/3.png');
+}
+
+.img-4 {
+    background-image: url('./image/product/4.png');
+}
+
+.img-5 {
+    background-image: url('./image/product/5.png');
+}
 .overlay {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -74,6 +90,24 @@
 .background-img:hover .table {
     transform: scale(1);
 }
-/* .show-menu-describe {
-    
-} */
+
+.feature-product {
+    margin-bottom: 40px;
+}
+
+.feature-product .text-1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: lime;
+    font-size: 15px;
+    margin: 0;
+}
+
+.feature-product .text-2 {
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
