@@ -7,12 +7,19 @@ body {
     margin: 0;
 }
 
+.content-2 {
+    margin-top: 50px;
+    position: relative;
+    width: 1349px;
+    height: 700px;
+}
+
 .background-image {
     background-image: url('https://demo2.wpopal.com/ekommart/wp-content/uploads/2020/02/rev_sliderhome8_1.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 0;
     width: 100%;
