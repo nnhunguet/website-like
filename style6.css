@@ -5,17 +5,13 @@ body {
     margin: 0px;
 }
 
-p{
-     margin: 30px 0;
-}
-.wrapper {
+.wrapper-2 {
     height: 551px;
     background-image: url('https://demo2.wpopal.com/ekommart/wp-content/uploads/2020/02/h8_bg2.jpg');
     display: flex;
     position: relative;
 }
-
-.wrapper-right {
+.wrapper-2-right {
     width: 630px;
     height: 602px;
     background-image: url('https://demo2.wpopal.com/ekommart/wp-content/uploads/2020/02/h8_img1.png');
@@ -24,7 +20,7 @@ p{
     bottom: -100px;
 }
 
-.wrapper-left {
+.wrapper-2-left {
     width: 645px;
     height: 351px;
     position: absolute;
@@ -33,13 +29,13 @@ p{
     color:white;
 }
 
-.wrapper-left .text-1 {
+.wrapper-2-left .text-1 {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
 }
 
-.wrapper-left .text-2 {
+.wrapper-2-left .text-2 {
     font-size: 55px;
     font-weight: 800;
 }
@@ -54,7 +50,7 @@ p{
     font-family: sans-serif;
 }
 
-.btn {
+.btn-2 {
     padding: 10px 40px;
     border: none;
     border-radius: 5px;
