@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.background-2 {
+    display: flex;
+    position: relative;
+    height: 518px;
+    background-image: url('https://demo2.wpopal.com/ekommart/wp-content/uploads/2020/02/h8_bg1.jpg');
+    background-position: top center;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.wrapper {
+    width: 1070px;
+    position: relative;
+}
+
+.text{
+    text-align: center;
+}
+
+.text .text-1{
+    color: #67ce29;
+    font-family: "Amatic SC",Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text .text-2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
