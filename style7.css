@@ -1,13 +1,5 @@
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0px;
-    margin-top: 100px;
-}
-
 .footer {
+    margin-top: 120px;
     display: grid;
     grid-template-columns: 22% 22% 50%;
     position: relative;
@@ -31,7 +23,7 @@ body{
 .ft-name {
     font-size: 14px;
     position: relative;
-    top: 40px;
+    margin-left: 20px;
 }
 .ft-contact {
     display: flex;
@@ -50,7 +42,8 @@ body{
 .footer-2{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .footer-2 ul {
@@ -62,6 +55,7 @@ body{
     margin: 0px 20px;
 }
 
-.margin-left {
-    margin-left: 40px;
+.autor {
+    font-size: 30px;
+    font-weight: bold;
 }
