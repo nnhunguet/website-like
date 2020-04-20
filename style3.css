@@ -46,23 +46,23 @@
 }
 
 .img-1 {
-    background-image: url('./image/product/1.png');
+    background-image: url(https://i.ibb.co/5YKbK6H/1.png);
 }
 
 .img-2 {
-    background-image: url('./image/product/2.png');
+    background-image: url(https://i.ibb.co/WcvS9J5/2.png);
 }
 
 .img-3 {
-    background-image: url('./image/product/3.png');
+    background-image: url(https://i.ibb.co/tHWTpT9/3.png);
 }
 
 .img-4 {
-    background-image: url('./image/product/4.png');
+    background-image: url(https://i.ibb.co/kDprBGH/4.png);
 }
 
 .img-5 {
-    background-image: url('./image/product/5.png');
+    background-image: url(https://i.ibb.co/qdtnFrz/5.png);
 }
 .overlay {
     height: 100%;
